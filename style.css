@@ -1,3 +1,268 @@
+.header{
+    position: absolute;
+    width: 1020px;
+    height: 89px;
+    left: 0px;
+    top: 0px;
+    background: #2D303A;
+}
+
+.header__shadow{
+    position: absolute;
+    width: 1020px;
+    height: 6px;
+    left: 0px;
+    top: 89px;
+    background: #323746;
+}
+
+.logo{
+    position: absolute;
+    width: 124px;
+    height: 25px;
+    left: 40px;
+    top: 29px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.logo::after{
+    content: "*";
+    color: #F06C64;
+}
+
+.main__nav{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 375px;
+    height: 14px;
+    left: 605px;
+    top: 42px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    letter-spacing: -0.035em;
+    color: #ffffff;
+}
+
+.colored{
+    color: #F06C64;
+}
+
+.slider{
+    position: absolute;
+    width: 1020px;
+    height: 594px;
+    left: 0px;
+    top: 95px;
+    background: #F06C64;
+}
+
+.slider__border{
+    position: absolute;
+    width: 1020px;
+    height: 6px;
+    left: 0px;
+    top: 689px;
+    background: #EA676B;
+}
+
+.shadow__vertical{
+    position: absolute;
+    left: 10.98%;
+    right: 65.49%;
+    top: 9%;
+    bottom: 10.5%;
+    background: url(assets/phone-vertical-shadow.png);
+}
+
+.body__vertical{
+    position: absolute;
+    width: 216px;
+    height: 458px;
+    left: 10.93%;
+    right: 67.89%;
+    top: 9.09%;
+    bottom: 13.8%;
+    background: url(assets/body-vertical.png);
+}
+
+.camera__vertical{
+    position: absolute;
+    width: 3.94px;
+    height: 3.94px;
+    left: 21.38%;
+    right: 78.24%;
+    top: 12.28%;
+    bottom: 87.05%;
+    background: url(Vector.png);
+}
+
+.display__vertical{
+    position: absolute;
+    left: 12.22%;
+    right: 69.35%;
+    top: 19.83%;
+    bottom: 24.67%;
+    background: url(assets/phone-vertical-display.png);
+    border-top: 0.02px solid #161616;
+    border-bottom: 0.02px solid #161616;
+        box-shadow: 0 0 0 2.98px #c7c7c7, 0 0 0 3px #c7c7c7, 0 0 0 3.03px #c7c7c7, 0 0 0 3px #c7c7c7 ;
+}
+
+.shadow__horizontal{
+    position: absolute;
+    left: 41.54%;
+    right: 11.11%;
+    top: 29.5%;
+    bottom: 30.5%;
+    background: url(assets/phone-horizontal-shadow.png);
+}
+
+.body__horizontal{
+    position: absolute;
+    width: 458px;
+    height: 216px;
+    left: 41.67%;
+    right: 13.43%;
+    top: 29.71%;
+    bottom: 33.92%;
+    background: url(assets/body-horizontal.png);
+}
+
+.camera__horizontal{
+    position: absolute;
+    width: 3.94px;
+    height: 3.94px;
+    left: 84.32%;
+    right: 15.29%;
+    top: 47.65%;
+    bottom: 51.69%;
+    background: url(camera_horizontal_red_dot.png);
+}
+
+.display__horizontal{
+    position: absolute;
+    left: 47.42%;
+    right: 19.93%;
+    top: 31.83%;
+    bottom: 36.83%;
+    background: url(assets/phone-horizontal-display.png);
+    border-right: 0.02px solid #161616;
+    border-left: 0.02px solid #161616;
+        box-shadow: 0 0 0 3px #c7c7c7, 0 0 0 2.98px #c7c7c7, 0 0 0 3px #c7c7c7, 0 0 0 3.03px #c7c7c7;
+}
+
+.services{
+    position: absolute;
+    width: 1020px;
+    height: 494px;
+    left: 0px;
+    top: 695px;
+    background: #F2F2F2;
+}
+
+.services__border{
+    position: absolute;
+    width: 1020px;
+    height: 6px;
+    left: 0px;
+    top: 1189px;
+    background: #FFFFFF;
+}
+
+h2{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #666D89;
+}
+
+h4{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767E9E;
+}
+
+.portfolio__section{
+    position: absolute;
+    width: 1020px;
+    height: 864px;
+    left: 0px;
+    top: 1195px;
+    background: #2D303A;
+}
+
+.portfolio__section__container{
+    display: block;
+    width: 1020px;
+    position: absolute;
+    top: 1380px;
+    margin: 40px;
+}
+
+.portfolio_img{
+    border: 6px solid #323746;
+    outline: 4px;
+    width: 220px;
+    height: 187px;
+}
+
+.portfolio__border{
+    position: absolute;
+    width: 1020px;
+    height: 6px;
+    left: 0px;
+    top: 2059px;
+    background: #323746;
+}
+
+.footer{
+    position: absolute;
+    width: 1020px;
+    height: 76px;
+    left: 0px;
+    top: 2065px;
+    background: #2D303A;
+}
+
 *{
     margin: 0;
+    box-sizing: border-box;
+
+html{
+    font-size: 10px;
+
 }
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1.8rem;
+    font-family: 'Lato', Verdana, sans-serif;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
