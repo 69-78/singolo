@@ -1,9 +1,11 @@
+
 .header{
-    position: absolute;
-    width: 1020px;
+    position: relative;
     height: 95px;
-    top: 0px;
-    background: #2D303A;
+    width: 1020px;
+    margin: 0 auto;
+    background-color: #2D303A;
+    border-left: calc(100% - 1020px) solid #2D303A;
     border-bottom: 6px solid #323746;
 }
 
@@ -58,20 +60,20 @@
 }
 
 .slider{
-    position: absolute;
+    position: relative;
     width: 1020px;
     height: 594px;
-    top: 95px;
-    background: #F06C64;
+    margin: 0 auto;
+    background-color: #F06C64;
     border-bottom: 6px solid #EA676B;
 }
 
 .shadow__vertical{
     position: absolute;
-    left: 10.98%;
-    right: 65.49%;
-    top: 9%;
-    bottom: 10.5%;
+    left: 11.08%;
+    right: 65.39%;
+    top: 8.99%;
+    bottom: 9%;
     background: url(assets/phone-vertical-shadow.png);
 }
 
@@ -100,10 +102,10 @@
 
 .shadow__horizontal{
     position: absolute;
-    left: 41.54%;
-    right: 11.11%;
-    top: 29.5%;
-    bottom: 30.5%;
+    left: 41.74%;
+    right: 10.91%;
+    top: 29.7%;
+    bottom: 29.6%;
     background: url(assets/phone-horizontal-shadow.png);
 }
 
@@ -165,9 +167,9 @@
 .services{
     position: relative;
     width: 1020px;
-    top: 695px;
     height: 494px;
-    background: #F2F2F2;
+    margin: 0 auto;
+    background-color: #F2F2F2;
     border-bottom: 6px solid #FFFFFF ;
 }
 
@@ -209,7 +211,6 @@ p{
     text-align: justify;
     color: #767E9E;
 }
-
 
 .services__header{
     position: relative;
@@ -262,9 +263,9 @@ p{
 .portfolio__section{
     position: relative;
     width: 1020px;
-    top: 1195px;
     height: 864px;
-    background: #2D303A;
+    margin: 0 auto;
+    background-color: #2D303A;
     border-bottom: 6px solid #323746;
 }
 
@@ -379,8 +380,8 @@ li:nth-child(1n+13){
     position: relative;
     width: 1020px;
     height: 76px;
-    top: 2065px;
-    background: #2D303A;
+    margin: 0 auto;
+    background-color: #2D303A;
 }
 
 h5{
@@ -429,11 +430,6 @@ h5{
     margin: 0;
     box-sizing: border-box;
 
-html{
-    font-size: 10px;
-
-}
-
 body {
     padding: 0;
     margin: 0;
@@ -451,3 +447,22 @@ body {
     padding-left: 10px;
   }
   
+@media screen and (max-width > 1020px){
+    .header{background-size: cover;}
+}
+
+@media screen and (1020px <= width){
+
+}
+
+@media screen and (768px <= width < 1020px){
+
+}
+
+@media screen and (375px <= width < 768px){
+
+}
+
+@media screen and (width < 375px +10){
+
+}
